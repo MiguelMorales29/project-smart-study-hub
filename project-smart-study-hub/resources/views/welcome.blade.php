@@ -22,7 +22,7 @@
       <div class="row align-items-center py-5 min-vh-100">
         <div class="col-lg-7 text-white">
           <div class="mb-4 d-flex align-items-center gap-3">
-            <img src="{{ asset('layouts/images/sshlogo.png') }}" onerror="this.style.display='none'" alt="Logo" class="h-12 w-auto"/>
+            <img src="{{ asset('layouts/images/logo.svg') }}" onerror="this.style.display='none'" alt="Logo" style="height:3rem;width:auto;"/>
             <h1 class="display-5 fw-bold lh-tight mb-0">Learn. Evolve. Succeed.</h1>
           </div>
           <p class="lead mb-4 max-w-2xl">
