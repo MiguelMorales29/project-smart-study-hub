@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="{{ asset('styles.css') }}">
   @stack('head')
 </head>
-<body>
+<body class="font-poppins text-slate-800">
   @include('partials.navbar')
-  <main class="container">@yield('content')</main>
+  @yield('content')
   @stack('scripts')
 </body>
 </html>
